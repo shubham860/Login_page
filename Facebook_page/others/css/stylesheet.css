@@ -1,0 +1,58 @@
+.row{
+  background-color:#365899;
+  color: white;
+  height: 82px;
+  min-width: 980px;
+}
+h1{
+  font-size: 42px;
+  font-weight: 600;
+}
+
+table{
+  display: table;
+  border-collapse: separate;
+  border-color: grey;
+  border-spacing: 4px;
+    -webkit-border-horizontal-spacing: 12px;
+    -webkit-border-vertical-spacing: 2px;
+    font-size: 12px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table tr {
+    vertical-align: top;
+}
+td, td.label {
+    text-align: left;
+}
+
+button.button1{
+      background-color: #4267b2;
+      border: 1px solid #ced0d4;
+      border-color: #29487d;
+      border-radius: 2px;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 12px;
+      -webkit-font-smoothing: antialiased;
+      font-weight: bold;
+      line-height: 18px;
+      padding: 2px 6px;
+      text-align: center;
+      vertical-align: top;
+      white-space: nowrap;
+      opacity: 0.8;
+    filter: alpha(opacity=80);
+
+}
+
+button:hover {
+opacity: 1.0;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+}
