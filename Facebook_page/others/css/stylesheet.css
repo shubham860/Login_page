@@ -1,4 +1,10 @@
-.row{
+body {
+  margin: 0;
+  font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
+  line-height: 1.28;
+}
+
+.bg-1 {
   background-color:#365899;
   color: white;
   height: 82px;
@@ -55,4 +61,9 @@ button.button1{
 button:hover {
 opacity: 1.0;
 filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.bg-2 {
+       background-color: #fff;
+       color: #1d2129;
 }
